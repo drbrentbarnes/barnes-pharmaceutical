@@ -56,7 +56,7 @@ export default function BarnesPharmaceuticalSite() {
               Repackaging · Relabeling · Kitting
             </p>
             <h2 className="mt-3 text-3xl md:text-5xl font-extrabold leading-tight text-slate-900">
-              Turnkey pharmaceutical repackaging for busy pharmacy teams.
+              Pharmaceutical repackaging for busy pharmacy teams.
             </h2>
             <p className="mt-4 text-slate-600 text-sm md:text-base max-w-xl">
               Barnes Pharmaceutical partners with hospital health systems, nursing homes, long‑term care facilities, and high‑volume pharmacies to deliver GMP‑aligned unit‑dose, strip, and unit‑of‑use repackaging that supports safety, survey readiness, and med‑pass efficiency.

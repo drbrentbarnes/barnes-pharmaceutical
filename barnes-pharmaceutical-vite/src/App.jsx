@@ -1,8 +1,11 @@
 import React from "react";
+import logo from "./assets/bp-logo.jpeg";
+import heroImg from "./assets/pharmacist-hero.jpg";
 
 // Barnes Pharmaceutical - Single-file React component
 // Tailwind CSS utility classes assumed to be available in the host project.
 // This component is a complete landing + info site for a pharmaceutical repackaging company.
+
 
 export default function BarnesPharmaceuticalSite() {
   return (
@@ -22,7 +25,7 @@ export default function BarnesPharmaceuticalSite() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 flex items-center justify-between gap-6">
           <a href="#top" className="flex items-center gap-3">
             <img
-              src="/src/assets/bp-logo.jpeg"
+              src={logo}
               alt="Barnes Pharmaceutical Logo"
               className="w-11 h-11 rounded-lg object-contain"
             />
@@ -93,7 +96,7 @@ export default function BarnesPharmaceuticalSite() {
           <div className="relative">
             <div className="rounded-3xl overflow-hidden shadow-xl border border-slate-100 bg-white">
               <img
-                src="/src/assets/pharmacist-hero.jpg"
+                src={heroImg}
                 alt="Pharmacist in cleanroom measuring unit-dose medication"
                 className="w-full h-80 md:h-96 object-cover"
               />
@@ -347,7 +350,7 @@ export default function BarnesPharmaceuticalSite() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <img
-              src="/src/assets/bp-logo.jpeg"
+              src={logo}
               alt="Barnes Pharmaceutical Logo"
               className="w-9 h-9 rounded-lg object-contain bg-slate-800"
             />
